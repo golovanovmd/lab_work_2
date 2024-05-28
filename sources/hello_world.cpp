@@ -1,9 +1,11 @@
 #include <iostream>
 #include <string>
 
-int main () {
-  std::string dat; // Comment
-  std::cin >> dat;
-  std::cout << "Hello world from user:" << dat << std::endl;
+int
+main()
+{
+  std::string name;
+  std::cin >> name;
+  std::cout << "Hello World from" << name << "!"; // Resolved conflict
   return 0;
 }
