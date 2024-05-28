@@ -1,9 +1,10 @@
 #include <iostream>
 #include <string>
-
-int main () {
-  std::string dat;
-  std::cin >> dat;
-  std::cout << "Hello world from " << dat << std::endl;
+int
+main()
+{
+  std::string name;
+  std::cin >> name;
+  std::cout << "Hello World from" << name << "!";
   return 0;
 }
