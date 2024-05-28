@@ -2,8 +2,8 @@
 #include <string>
 
 int main () {
-  std::string dat;
+  std::string dat; // Comment
   std::cin >> dat;
-  std::cout << "Hello world from " << dat << std::endl;
+  std::cout << "Hello world from user:" << dat << std::endl;
   return 0;
 }
